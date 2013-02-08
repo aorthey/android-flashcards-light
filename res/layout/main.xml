@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+android:id="@+id/layout_text"
+android:onClick="onClick"
+    >
+		<TextView
+		android:id="@+id/title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+		<TextView
+		android:id="@+id/premiere_mot"
+		android:layout_below="@id/title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+		<TextView
+		android:id="@+id/deuxieme_mot"
+		android:layout_below="@id/premiere_mot"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+		<TextView
+		android:id="@+id/troisieme_mot"
+		android:layout_below="@id/deuxieme_mot"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+		<TextView
+		android:id="@+id/quatrieme_mot"
+		android:layout_below="@id/troisieme_mot"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+		<TextView
+		android:id="@+id/cinquieme_mot"
+		android:layout_below="@id/quatrieme_mot"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	    <Button
+		android:id="@+id/button_next"
+		android:layout_gravity="center"
+		android:layout_width="300px"
+		android:layout_height="wrap_content"
+		android:text="@string/button_next_label"
+		android:onClick="nextCard"
+		android:layout_below="@id/cinquieme_mot"
+		/>
+
+</RelativeLayout>

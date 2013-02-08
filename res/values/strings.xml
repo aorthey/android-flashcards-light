@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Carte de Français</string>
+	<string name="button_next_label">Next</string>
+	<string name="button_jesais_label">Je sais</string>
+</resources>
