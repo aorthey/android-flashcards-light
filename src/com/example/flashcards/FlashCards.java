@@ -23,7 +23,7 @@ import java.io.InputStream;
 import java.io.IOException;
 
 
-public class MainActivity extends Activity
+public class FlashCards extends Activity
 implements OnClickListener
 {
 	private int requestCode = 1;
